@@ -54,7 +54,7 @@ function index(){
 		 {
 			 $data=$this->upload->data();
 			 $image=$data['file_name'];
-		$data=array(
+		$data=array(     
 		'uname' => $this->input->post('dname'),
 		'password' =>md5($this->input->post('reg_pass1')),
 		'fname' => $this->input->post('dfname'),
